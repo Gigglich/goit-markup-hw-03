@@ -1,39 +1,54 @@
-body {
-    background-color: #FFFFFF;
-    color: #2E2F42;
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --secondary-text-color: #4D5AE5;
 }
+
+
+
+.body {
+    background-color: #E5E5E5;
+    color: var(--title-text-color);
+}
+
 .list {
     list-style: none;
 }
 
-/* синий логотип #4D5AE5 */
-/* темно синий  #2E2F42 */
-/* серый #434455 */
-/* белый #FFFFFF */
-/* белый для лого #F4F4FD */
-/* белый в футере #E7E9FC */
+/* logo */
+
 .logo-web {
-    color: #4D5AE5;
+    color: var(--secondary-text-color);
 }
 .logo-studio {
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 /* site nav */
 
 .site-nav, .link {
-    color: #2E2F42;
+    color: var(--primary-text-color);
+}
+
+.link:hover {
+    color: var(--secondary-text-color);
 }
 
 /* auth nav */
 .auth-nav, .auth {
-    color: #434455;
+    color: var(--title-text-color);
+}
+
+/* section */
+
+.section {
+    color: var(--primary-text-color);
 }
 
 /* hero */
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color);
 }
 
 .hero-title {
@@ -41,4 +56,51 @@ body {
 }
 .hero-button {
     color: #FFFFFF;
+    background-color: var(--secondary-text-color);
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+/* features */
+
+.features, .title {
+    color: var(--primary-text-color);
+}
+
+.title-text {
+    color: var(--title-text-color);
+}
+
+/* our team */
+
+.section-bgc {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.name {
+    color: var(--primary-text-color);
+}
+
+.job-title {
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-text-color);
+}
+
+.whlogo-studio {
+    color: #F4F4FD;
+}
+
+.footer-title {
+    color: #E7E9FC;
 }
