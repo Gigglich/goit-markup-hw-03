@@ -7,8 +7,10 @@
 
 
 .body {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     color: var(--title-text-color);
+
+    font-family: Roboto, sans-serif;
 }
 
 .list {
