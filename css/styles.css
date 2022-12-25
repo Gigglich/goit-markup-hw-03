@@ -184,6 +184,8 @@
 .cashless-payment {
     background-color: var(--secondary-text-color);
     color: #F4F4FD;
+    width: 360px;
+    height: 300px;
 }
 
 .illustration-title {
@@ -191,4 +193,10 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+}
+
+.illustration-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
