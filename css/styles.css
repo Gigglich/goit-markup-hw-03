@@ -11,7 +11,6 @@
     color: var(--title-text-color);
 
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.02em;
 }
 
 .list {
@@ -56,10 +55,11 @@
 
 .site-nav, .link {
     color: var(--primary-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.1;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .link:hover {
@@ -72,16 +72,17 @@
     font-size: 16px;
     line-height: 0.6;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 /* section */
 
 .section-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
-
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section {
@@ -92,22 +93,25 @@
 
 .hero {
     background-color: var(--primary-text-color);
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
     text-align: center;
 }
 
 .hero-title {
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .hero-button {
     color: #FFFFFF;
     background-color: var(--secondary-text-color);
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 0.84;
+    letter-spacing: 0.02em;
 }
 
 .hero-button:hover {
@@ -121,16 +125,17 @@
 }
 
 .title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .title-text {
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* our team */
@@ -145,15 +150,17 @@
 
 .name {
     color: var(--primary-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .job-title {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -166,14 +173,16 @@
     color: #E7E9FC;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-button {
     background-color: #F4F4FD;
     color: var(--secondary-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-button:hover {
@@ -186,17 +195,21 @@
     color: #F4F4FD;
     width: 360px;
     height: 300px;
+    letter-spacing: 0.02em;
 }
 
 .illustration-title {
     color: #2E2F42;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    width: 173px;
+    height: 24px;
+    letter-spacing: 0.02em;
 }
 
 .illustration-info {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
