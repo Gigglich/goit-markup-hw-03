@@ -110,7 +110,7 @@
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 19px;
     letter-spacing: 0.02em;
 }
 
@@ -183,6 +183,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-family: inherit;
 }
 
 .nav-button:hover {
@@ -193,8 +194,6 @@
 .cashless-payment {
     background-color: var(--secondary-text-color);
     color: #F4F4FD;
-    width: 360px;
-    height: 300px;
     letter-spacing: 0.02em;
 }
 
@@ -203,8 +202,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    width: 173px;
-    height: 24px;
     letter-spacing: 0.02em;
 }
 
