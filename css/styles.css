@@ -4,15 +4,15 @@
     --secondary-text-color: #4D5AE5;
 }
 
-html {
-    box-sizing: border-box;
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+ul,ol {
+    margin: 0;
+    padding-left: 0;
 }
+
 
 .body {
     background-color: #FFFFFF;
@@ -25,7 +25,19 @@ html {
     list-style: none;
 }
 
-/* logo */
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+    /* logo */
 
 .logo-web {
     color: var(--secondary-text-color);
