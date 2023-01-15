@@ -172,6 +172,8 @@ ul,ol {
 
 /* features */
 
+
+
 .features, .title {
     color: var(--primary-text-color);
 }
@@ -189,13 +191,22 @@ ul,ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 8px;
+    font-weight: 400;
 }
 
 .advantages {
     display: flex;
     gap: 24px;
     padding-top: 120px;
-    border: 1px solid #4D5AE5;
+    align-items: center;
+}
+
+/* projects */
+
+.projects {
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
 }
 
 /* our team */
@@ -204,12 +215,32 @@ ul,ol {
     background-color: #F4F4FD;
 }
 
+.team {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+    rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-text {
+    margin: 32px 16px;
+    text-align: center;
+}
+
 .name {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .job-title {
