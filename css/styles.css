@@ -120,18 +120,19 @@ ul,ol {
 /* section */
 
 .section-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .section {
     color: var(--primary-text-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /* hero */
@@ -139,16 +140,17 @@ ul,ol {
 .hero {
     background-color: var(--primary-text-color);
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
     color: #FFFFFF;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-top: 188px;
 }
 .hero-button {
     min-width: 169px;
@@ -161,7 +163,6 @@ ul,ol {
     line-height: 19px;
     letter-spacing: 0.02em;
     margin-top: 48px;
-    margin-bottom: 188px;
     border-radius: 4px;
     border: none;
 }
@@ -173,7 +174,9 @@ ul,ol {
 
 /* features */
 
-
+.features {
+    padding-top: 120px;
+}
 
 .features, .title {
     color: var(--primary-text-color);
@@ -198,8 +201,11 @@ ul,ol {
 .advantages {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
     align-items: center;
+}
+
+.features-item {
+    width: 264px;
 }
 
 /* projects */
@@ -231,7 +237,7 @@ ul,ol {
 }
 
 .team-text {
-    margin: 32px 16px;
+    padding: 32px 16px;
     text-align: center;
 }
 
@@ -255,19 +261,22 @@ ul,ol {
 
 .footer {
     background-color: var(--primary-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.footer-logo {
-    padding-top: 100px;
-}
 
 .footer-title {
     color: #E7E9FC;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 100px;
     margin-top: 16px;
+}
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .nav-button {
@@ -280,7 +289,6 @@ ul,ol {
     font-family: inherit;
     padding: 12px 24px;
     border-radius: 4px;
-    border: none;
     border: 1px solid #E7E9FC;
 }
 
@@ -303,7 +311,6 @@ ul,ol {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     padding-left: 16px;
 }
 
@@ -313,11 +320,9 @@ ul,ol {
     letter-spacing: 0.02em;
     margin-top: 8px;
     padding-left: 16px;
-    padding-bottom: 32px;
 }
 
 .buttons {
-    padding-top: 96px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -329,11 +334,15 @@ ul,ol {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
 } 
 
 .ill-item {
     width: calc((100% - 48px) / 3);
+}
+
+.ill-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
